@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your First Grammar Lesson"
+            android:layout_gravity="center"
+            android:textSize="25dp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to your first lesson! We're still a work in progress, but here's some basic information about grammar."/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spanish has very similar sentence structure to English. Just put \' no\' in front of a clause to negate it; for example, to say \'I can\'t drive\', you would say, \'no puedo conducir\'."/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To add adjectives to a word, just put the adjectives after. For example, to say, \'the small green train\', you might say, \'el tren pequeño verde\'." />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Here\'s all the pronouns and their English equivalents." />
+            <TableLayout
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView android:text="Spanish"
+                       android:textStyle="bold" />
+                    <TextView android:text="English"
+                        android:textStyle="bold" />
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="Yo"/>
+                    <TextView android:text="I"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="Tú"/>
+                    <TextView android:text="You (informal)"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="Usted"/>
+                    <TextView android:text="You (formal)"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="El/La"/>
+                    <TextView android:text="The (masc. and fem.)"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="Él/Ella"/>
+                    <TextView android:text="He/She"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="Nosotros"/>
+                    <TextView android:text="We"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="Vosotros"/>
+                    <TextView android:text="You (plural, informal)"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="Ustedes"/>
+                    <TextView android:text="You (plural, formal)"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="Ellos/Ellas"/>
+                    <TextView android:text="The (plural, masc. and fem.)"/>
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We\'ll just focus on present-tense verbs for now, but here's a few conjugations you\'ll want to know."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="First, here's the conjugation for \'ser\', which means \'to be\'." />
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView android:text="Pronoun"
+                    android:textStyle="bold" />
+                <TextView android:text="Ser"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Yo"/>
+                <TextView android:text="Soy"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Tú"/>
+                <TextView android:text="Eres"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Usted"/>
+                <TextView android:text="Es"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Él/Ella"/>
+                <TextView android:text="Es"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Nosotros"/>
+                <TextView android:text="Somos"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Vosotros"/>
+                <TextView android:text="Sois"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Ustedes"/>
+                <TextView android:text="Son"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Ellos/Ellas"/>
+                <TextView android:text="Son"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

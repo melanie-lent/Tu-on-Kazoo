@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Tú on Kazoo!</string>
+    <string name="app_subtitle">(Kazoo not required)</string>
+    <!-- Utilities -->
+        <!-- Title Activity Buttons -->
+        <string name="start_button">Start Lesson</string>
+        <string name="scores_button">High Scores</string>
+        <string name="grammar_lesson_button">Review Grammar</string>
+        <!-- Answer Responses -->
+        <string name="answer_toast_correct">Correct!</string>
+        <string name="answer_toast_incorrect">Incorrect.</string>
+    <string name="answer_toast_correct_cheater">Correct! Next time try doing it without revealing the answer.</string>
+    <string name="answer_toast_incorrect_cheater">Why are you like this</string>
+        <!-- Cheat -->
+        <string name="cheat_button">Reveal Answer</string>
+        <string name="cheat_confirm">Do you really want to reveal the answer? You\'ll lose your score and multiplier for this question.</string>
+        <!-- On quiz completion -->
+        <string name="quiz_success_score">You did it! Here is your score: </string>
+
+    <!-- Questions -->
+        <!-- Question Instructions -->
+        <string name="choose_sentence_s_instr">Translate this sentence to Spanish</string>
+        <string name="choose_sentence_e_instr">Translate this sentence to English</string>
+        <string name="fill_blank_instr">Fill in the Blank</string>
+        <string name="define_s_instr">Translate this word to Spanish</string>
+        <string name="define_e_instr">Translate this word to English</string>
+
+        <!-- Questions & Answers -->
+        <!-- Translate text to English -->
+        <string name="choose_sentence_s_q1">I am at school right now.</string>
+        <string name="choose_sentence_s_q2">The pencil is on top of the chair.</string>
+        <string name="choose_sentence_s_q3">I am illiterate.</string>
+        <string name="choose_sentence_s_q4">The man is short.</string>
+        <!-- Translate text to Spanish -->
+        <string name="choose_sentence_e_q1">El lápiz está detrás del libro.</string>
+        <string name="choose_sentence_e_q2">¿Tienes carro?</string>
+        <string name="choose_sentence_e_q3">Soy de Francia.</string>
+        <string name="choose_sentence_e_q4">Hasta mañana.</string>
+        <!-- Fill in the blank -->
+        <string name="fill_blank_q1">Me _____ viajar.</string>
+        <string name="fill_blank_q2">Mi color favorito es _____.</string>
+        <string name="fill_blank_q3">_____ Carlos.</string>
+        <string name="fill_blank_q4">____ en Canadá en este momento.</string>
+        <!-- What is this word in English? -->
+        <string name="define_s_q1">Estár</string>
+        <string name="define_s_q2">Nosotros</string>
+        <string name="define_s_q3">Me llamo…</string>
+        <string name="define_s_q4">Vosotros</string>
+        <!-- What is this word in Spanish? -->
+        <string name="define_e_q1">Parents</string>
+        <string name="define_e_q2">My name is…</string>
+        <string name="define_e_q3">You (pl. f.)</string>
+        <string name="define_e_q4">Paper</string>
+</resources>
